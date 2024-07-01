@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Iranyekan';
+  src: url("../fonts/Qs_Iranyekan.ttf"),
+    url("../fonts/Qs_Iranyekan\ medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body,
+input,
+input::placeholder,
+button{
+  font-family: "Iranyekan";
+}

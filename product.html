@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metaverse</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/font.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <div class="navbar-brand">
+          <a href="#">
+            <img src="images/download.png" alt="logo">
+          </a>
+          <div class="shopping-bag">
+            <i class="fa fa-shopping-basket " id="basket"></i>
+            <p id="click">0</p>
+          </div>
+          <button class="btn-tabs" onclick="handleTabs()">
+            <i class="fa fa-bars icon"></i>
+          </button>
+        </div>
+        <div id="nav-link">
+          <li class="nav-link">
+            Home
+          </li>
+          <li class="nav-link">
+            company
+          </li>
+          <li class="nav-link">
+            How it works
+          </li>
+        </div>
+
+      </ul>
+
+    </nav>
+  </header>
+
+  <section>
+    <div class="product"></div>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div class="cart-product"></div>
+        <div class="footer-modal">
+          <span class="total-price">totalPrice:10$</span>
+          <button class="clear-cart">clearAll</button>
+          <button class="confirm">confirm</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-center">
+        <div class="end-footer follow-us">
+          <p>Follow us</p>
+          <div class="social-media">
+            <i class="fa facebook fa-facebook-square"></i>
+            <i class="fa twitter fa-twitter-square"></i>
+            <i class="fa youtube fa-youtube-play"></i>
+            <i class="fa linkedin fa-linkedin-square"></i>
+          </div>
+        </div>
+        <div class="end-footer contact-us">
+          <p>Contact us</p>
+          <div class="send-gmail">
+            <p>Share your ideas</p>
+          </div>
+        </div>
+        <div class="end-footer end-text">
+          <p>Privacy policy</p>
+          <p>About us</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/app.js"></script>
+  <script src="assets/js/function.js"></script>
+</body>
+
+</html>
